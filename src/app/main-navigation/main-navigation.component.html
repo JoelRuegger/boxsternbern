@@ -1,0 +1,55 @@
+    <mat-sidenav-container fullscreen>
+      <mat-sidenav #sidenav>
+        <mat-nav-list>
+          <a routerLink="/aktuell" mat-list-item routerLinkActive="navLinkActive" class="navLink">
+            <mat-icon class="navIcon">whatshot</mat-icon>
+            Aktuell
+          </a>
+          <a routerLink="/training" mat-list-item routerLinkActive="navLinkActive" class="navLink">
+            <mat-icon class="navIcon">sports_mma</mat-icon>
+            Training
+          </a>
+          <a routerLink="/kontakt" mat-list-item routerLinkActive="navLinkActive" class="navLink">
+            <mat-icon class="navIcon">mail_outline</mat-icon>
+            Kontakt
+          </a>
+          <a (click)="sidenav.toggle()" mat-list-item class="navLink">
+            <mat-icon>close</mat-icon> Close
+          </a>
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content fxLayout="column" class="mainContent">
+        <mat-toolbar color="primary">
+          <mat-toolbar-row>
+            <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+              <mat-icon>menu</mat-icon>
+            </button>
+            <a routerLink="/aktuell" id="noLink">
+              <span class="title">Box</span><span class="asterisk title">*</span><span class="title">Bern</span>
+            </a>
+            <span class="example-spacer"></span>
+            <div fxShow="true" fxHide.lt-md="true">
+              <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+              <a routerLink="/aktuell" routerLinkActive="navLinkActive" class="navLink">
+                <mat-icon class="navIcon">whatshot</mat-icon>
+                Aktuell
+              </a>
+              <a routerLink="/training" routerLinkActive="navLinkActive" class="navLink">
+                <mat-icon class="navIcon">sports_mma</mat-icon>
+                Training
+              </a>
+              <a routerLink="/kontakt" routerLinkActive="navLinkActive" class="navLink">
+                <mat-icon class="navIcon">mail_outline</mat-icon>
+                Kontakt
+              </a>
+            </div>
+          </mat-toolbar-row>
+        </mat-toolbar>
+        <router-outlet></router-outlet>
+        <footer class="footer" fxFlexOffset="auto">
+          <div class="footerContent">
+            <span>&copy; 2020 by Joël Rüegger <a routerLink="/impressum" id="impressumLink">Impressum</a></span>
+          </div>
+        </footer>
+      </mat-sidenav-content>
+    </mat-sidenav-container>

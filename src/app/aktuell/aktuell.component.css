@@ -1,0 +1,28 @@
+mat-card-header-text {
+    margin-left: 0px;;
+}
+
+.card {
+    width: 60%;
+    min-height: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 70px 70px 70px;
+}
+
+.innerCard{
+    max-width: 70%;
+    background-color: rgba(103, 58, 183, 0.3);
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 70px 70px 70px;
+}
+
+.asterisk{
+    color: #ffd740;
+  }
+
+  .cardTitle{
+      font-size: 20px;
+  }

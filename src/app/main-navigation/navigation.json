@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "whatshot",
+        "text": "Aktuell",
+        "url": "#"
+    },
+    {
+        "icon": "sports_mma",
+        "text": "Training",
+        "url": "#"
+    },
+    {
+        "icon": "mail_outline",
+        "text": "Kontakt",
+        "url": "#"
+    }
+]

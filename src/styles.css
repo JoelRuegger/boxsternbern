@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Montserrat', sans-serif; }
+.textContent { line-height: 1.6; text-align: justify;}
+
+.content-container{
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 70px 70px 70px;
+    background-color: rgb(226, 226, 226);
+}
+
+.customLink {
+    color: #673ab7;
+}
+
+.card {
+    max-width: 60%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 70px 70px 70px;
+}
