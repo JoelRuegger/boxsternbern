@@ -9,8 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ImpressumComponent } from './impressum/impressum.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/aktuell', pathMatch: 'full' },
   { path: 'aktuell', component: AktuellComponent },
   { path: 'ueber-uns', component: UeberUnsComponent },
   { path: 'training', component: TrainingComponent },
