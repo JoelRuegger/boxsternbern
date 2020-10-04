@@ -23,7 +23,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { UeberUnsComponent } from './ueber-uns/ueber-uns.component';
 import { MatCard, MatCardModule } from '@angular/material/card';
 import { ImpressumComponent } from './impressum/impressum.component';
-import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -51,9 +50,6 @@ import { AgmCoreModule } from '@agm/core';
     MatButtonModule,
     MatCardModule,
     FlexLayoutModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDLhoKRRrYIX_wmdtyFPqrkoP4Z-T6zpgg'
-    })
   ],
   exports: [
     TimelineComponent

@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./kontakt.component.css']
 })
 export class KontaktComponent implements OnInit {
-  lat = 46.954693;
-  lng = 7.452173;
   constructor() { }
 
   ngOnInit(): void {
