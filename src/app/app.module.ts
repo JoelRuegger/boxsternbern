@@ -23,6 +23,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { UeberUnsComponent } from './ueber-uns/ueber-uns.component';
 import { MatCard, MatCardModule } from '@angular/material/card';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { AktuellAltComponent } from './aktuell-alt/aktuell-alt.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
     PageNotFoundComponent,
     UeberUnsComponent,
     ImpressumComponent,
+    AktuellAltComponent,
   ],
   imports: [
     BrowserModule,

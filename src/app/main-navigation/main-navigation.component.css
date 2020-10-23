@@ -5,6 +5,11 @@ mat-icon{
 mat-sidenav {
   background-color: #673ab7;
 }
+
+.aktuellList{
+  list-style-type: none;
+}
+
 .example-icon {
     padding: 0 14px;
   }

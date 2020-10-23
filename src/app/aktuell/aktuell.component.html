@@ -1,16 +1,88 @@
 <div fxLayout="row" fxLayoutAlign="start start">
-<mat-card class="card">
-    <mat-card-content>
-        <h1>Aktuell</h1>
-        <div *ngFor="let post of posts">
-            <mat-card class="innerCard">
-                <mat-card-title class="cardTitle">{{post.title}}</mat-card-title>
-                <mat-card-subtitle>{{post.time}}</mat-card-subtitle>
-                <mat-card-content>
-                    <div [innerHTML]="post.content"></div>
-                </mat-card-content>
-            </mat-card>
-        </div>
-    </mat-card-content>
-</mat-card>
+    <mat-card class="card">
+        <mat-card-content>
+            <h1>Aktuell</h1>
+            <div>
+                <mat-card class="innerCard">
+                    <mat-card-title class="cardTitle">Trainingsplan von Oktober bis Dezember 2020</mat-card-title>
+                    <mat-card-subtitle>23. Oktober 2020</mat-card-subtitle>
+                    <mat-card-content>
+                        <p>Ihr wisst was kommt...<span class="spaceTd"></span><i class='fas fa-viruses'></i></p>
+                        <p>Der Boxkeller ist einmal mehr geschlossen, auch f&uuml;r private Trainings. Wir werden euch regelm&auml;ssig informieren was das Training
+                            betrifft, jeweils &uuml;ber diese Webseite, &uuml;ber Facebook oder den E-Mailverteiler (siehe <a routerLink="/kontakt" >Kontakt</a> um im Verteiler aufgenommen zu werden).
+                            Die Daten im vorherigen Post werden aktualisiert, sobald klar ist, wie es weitergeht.</p>
+                            <p>Schaut gut zu euch und wir hoffen euch bald wieder zu sehen!</p><mat-icon class="navIcon">sports_mma</mat-icon>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="innerCard">
+                    <mat-card-title class="cardTitle">Trainingsplan von Oktober bis Dezember 2020</mat-card-title>
+                    <mat-card-subtitle>September 2020</mat-card-subtitle>
+                    <mat-card-content>
+                        <table>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-check'></i><span class="spaceTd"></span>2.10.2020</td>
+                                <td>Me</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-check'></i><span class="spaceTd"></span>9.10.2020</td>
+                                <td>Jo</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-check'></i><span class="spaceTd"></span>16.10.2020</td>
+                                <td>Re</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-check'></i><span class="spaceTd"></span>23.10.2020</td>
+                                <td>Mo</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-times'></i><span class="spaceTd"></span><s>30.10.2020</s></td>
+                                <td><s>Me</s></td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-times'></i><span class="spaceTd"></span><s>6.11.2020</s></td>
+                                <td><s>Re</s></td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-times'></i><span class="spaceTd"></span><s>13.11.2020</s></td>
+                                <td><s>Mo</s></td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='far fa-calendar-times'></i><span class="spaceTd"></span><s>20.11.2020</s></td>
+                                <td><s>Jo</s></td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='fas fa-hourglass-half'></i><span class="spaceTd"></span>27.11.2020</td>
+                                <td>Me</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='fas fa-hourglass-half'></i><span class="spaceTd"></span>04.12.2020</td>
+                                <td>Re</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='fas fa-hourglass-half'></i><span class="spaceTd"></span>11.12.2020</td>
+                                <td>Jo</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='fas fa-hourglass-half'></i><span class="spaceTd"></span>18.12.2020</td>
+                                <td>Mo</td>
+                            </tr>
+                            <tr>
+                                <td class="dateTd"><i class='fas fa-hourglass-half'></i><span class="spaceTd"></span>(25.12.2020)</td>
+                                <td>Mo, je nach Nachfrage</td>
+                            </tr>
+                        </table>
+                    </mat-card-content>
+                    <mat-card-footer>- aktualisiert am 23. Oktober 2020</mat-card-footer>
+                </mat-card>
+                <mat-card class="innerCard">
+                    <mat-card-title class="cardTitle">Neue Website ist online!</mat-card-title>
+                    <mat-card-subtitle>September 2020</mat-card-subtitle>
+                    <mat-card-content>
+                        <p>Es ist soweit! Die neue Website von Box*Bern ist online und wird bald die Facebook-Seite ablösen. Schaut euch um und gebt Rückmeldungen :)</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-card-content>
+    </mat-card>
 </div>
