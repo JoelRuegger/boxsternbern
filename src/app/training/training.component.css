@@ -3,9 +3,10 @@
     height: 70%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 30px;
     padding: 30px 70px 70px 70px;
 }
 
-p{
-    font-size: 16px;;
-}
+ p{
+      font-size: 16px;;
+  }

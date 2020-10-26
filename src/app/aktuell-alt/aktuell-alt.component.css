@@ -1,5 +1,5 @@
 mat-card-header-text {
-    margin-left: 0px;;
+    margin-left: 0px;
 }
   
 .card {
@@ -26,3 +26,16 @@ mat-card-header-text {
   .cardTitle{
       font-size: 20px;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .card{
+        width: 90%;
+    }
+    .innerCard{
+        max-width: 90%;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+}

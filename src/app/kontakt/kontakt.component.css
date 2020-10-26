@@ -3,6 +3,7 @@
     height: 70%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 30px;
     padding: 30px 70px 70px 70px;
 }
 
@@ -29,5 +30,5 @@ agm-map{
 }
 
 p{
-    font-size: 16px;;
+    font-size: 16px;
 }
